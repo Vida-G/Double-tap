@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="css/sign-in.css">
     <title>Signin</title>
 </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
-    <div class="row">
+    <div class="row" Id="FitPage">
         <div class="col-6" id="cutof">
             <div class="TopImg">
                 <img src="images/SignIn/Curved-Background.png" alt="" id="oval">
@@ -21,7 +22,7 @@
                 <span id="TopImg">
                     <p>Don't Have an Account Yet?</p>
                     <p>What are you waiting for? Let's Fix that now!</p>
-                    <a href="" target="_blank">
+                    <a href="sign-up.html" target="_blank">
                         <button type="button" class="btn btn-primary" id="SignInButton1">Sign Up</button>
                     </a>
                 </span>
@@ -30,39 +31,49 @@
         <div class="col-6" id="form-adjust">
             <form id="FormItems">
                 <div class="form-group">
-                    <h2>Sign In</h2>
+                    <h1>Sign In</h1>
                     <label for="UsernameInput"></label>
                     <input type="username" class="form-control" id="Inputs">
+                    <div id=UserAdjust>
+                        <i class="fa fa-user fa-user-o" id="UserIcon"></i>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="emailInput"></label>
                     <input type="email" class="form-control" id="Inputs">
+                    <div id="EmailAdjust">
+                    <i class="fa fa-envelope-o" aria-hidden="true" id="EmailIcon"></i>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="passwordInput"></label>
                     <input type="password" class="form-control" id="Inputs">
-                </div><a href="" target="_blank">
+                    <div id="LockAdjust">
+                        <i class="fa fa-lock" aria-hidden="true" id="LockIcon"></i>
+                    </div>                   
+                </div>
+                <a href="" target="_blank">
                     <button type="button" class="btn btn-primary" id="SignInButton2">Sign In</button>
                 </a>
                 <p id="Text-Or">Or Sign in with social platforms</p>
                 <div Id="logo-adjust">
                     <div Id="Logos">
-                        <a href="" target="_blank">
+                        <a href="https://www.facebook.com/" target="_blank">
                             <img src="images/SignIn/Path 151@2x.png" alt="" id="FacebookLogo">
                         </a>
                     </div>
                     <div Id="Logos">
-                        <a href="" target="_blank">
+                        <a href="https://twitter.com/" target="_blank">
                             <img src="images/SignIn/Path 152@2x.png" alt="" id="TwitterLogo">
                         </a>
                     </div>
                     <div Id="Logos">
-                        <a href="" target="_blank">
+                        <a href="https://mail.google.com/" target="_blank">
                             <img src="images/SignIn/google-logo.png" alt="" id="GoogleLogo">
                         </a>
                     </div>
                     <div Id="Logos">
-                        <a href="" target="_blank">
+                        <a href="https://www.linkedin.com/" target="_blank">
                             <img src="images/SignIn/linkedin-logo.png" alt="" id="LinkedinLogo">
                         </a>
                     </div>

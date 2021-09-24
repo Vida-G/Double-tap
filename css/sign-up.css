@@ -1,0 +1,130 @@
+ #RightImg {
+    top: 25%;
+    left: 30%;
+    color:white; 
+    display: flex;   
+}
+
+#BackgroundImg {
+    position: absolute; 
+    width: 50%;
+    bottom: 12%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+} 
+
+#form-adjust{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+#SignInButton1{
+    border-radius: 30px 30px 30px 30px;
+    width: 150px;
+    height: 40px; 
+    background-color:rgb(26, 29, 246);
+    border-width: 3px;
+    border-color: white;
+}
+
+#FormItems{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-group{
+    text-align: center;
+    margin-top:30px;
+}
+
+#Inputs{
+    border-radius: 30px 30px 30px 30px;
+    width: 400px;
+    height: 50px;
+}
+
+#UserAdjust{
+    position:absolute;
+    top: 114px;
+}
+
+#UserIcon{
+    position:relative;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#EmailAdjust{
+    position:absolute;
+    top: 219px;
+
+}
+
+#EmailIcon{
+    position:relative;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#LockAdjust{
+    position:absolute;
+    top: 320px;
+}
+
+#LockIcon{
+    position:relative;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#SignInButton2{
+    border-radius: 30px 30px 30px 30px;
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+#Text-Or{
+    margin-top: 50px; 
+    font-size: 15px;
+}
+
+#logo-adjust{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+}
+
+#Logos{
+    border-radius: 30px 30px 30px 30px;
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#FacebookLogo{
+    width: 15px;
+}
+
+#TwitterLogo{
+    width: 30px;
+}
+
+#GoogleLogo{
+    width: 25px;
+}
+
+#LinkedinLogo{
+    width: 20px;
+}

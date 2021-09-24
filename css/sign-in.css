@@ -5,8 +5,6 @@
 #cutof {
     overflow: hidden;
     position: static;
-    /* height: 100%; */
-    /* width: 50%; */
 }
 
 #oval{
@@ -22,7 +20,7 @@
 
 #TopImg {
     position:absolute;
-    top: 25%;
+    top: 13%;
     left: 20%;
     font-size: 24px;
     color:white;
@@ -47,7 +45,7 @@
     border-radius: 30px 30px 30px 30px;
     width: 150px;
     height: 40px; 
-    background-color:rgb(3,66,241);
+    background-color:rgb(26, 29, 246);
     border-width: 3px;
     border-color: white;
 }
@@ -61,13 +59,46 @@
 .form-group{
     text-align: center;
     margin-top:30px;
-    /* font-size: 21px; */
 }
 
 #Inputs{
     border-radius: 30px 30px 30px 30px;
     width: 400px;
     height: 50px;
+}
+
+#UserAdjust{
+    position:absolute;
+    top: 114px;
+}
+
+#UserIcon{
+    position:relative;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#EmailAdjust{
+    position:absolute;
+    top: 219px;
+
+}
+
+#EmailIcon{
+    position:relative;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#LockAdjust{
+    position:absolute;
+    top: 320px;
+}
+
+#LockIcon{
+    position:relative;
+    margin-left: 30px;
+    margin-top: 15px;
 }
 
 #SignInButton2{
