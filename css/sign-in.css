@@ -1,0 +1,118 @@
+.TopImg {
+    text-align:center;
+}
+
+#cutof {
+    overflow: hidden;
+    position: static;
+    /* height: 100%; */
+    /* width: 50%; */
+}
+
+#oval{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    /* border-radius : 50%; */
+    transform: translate(-50%, 0);
+    /* left: -50%; */
+    /* top: -101%; */
+}
+
+#TopImg {
+    position:absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 24px;
+    color:white;
+    transform: translate(-50%, -50%);
+}
+
+#BackgroundImg {
+    position: absolute;
+    width: 30%;
+    bottom: 17%;
+    left: 5%;
+}
+
+#form-adjust{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    padding-right: 100px;
+}
+
+#SignInButton1{
+    border-radius: 30px 30px 30px 30px;
+    width: 150px;
+    height: 40px; 
+    background-color:rgb(3,66,241);
+    border-width: 3px;
+    border-color: white;
+}
+
+#FormItems{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-group{
+    text-align: center;
+    margin-top:30px;
+    /* font-size: 21px; */
+}
+
+#Inputs{
+    border-radius: 30px 30px 30px 30px;
+    width: 400px;
+    height: 50px;
+}
+
+#SignInButton2{
+    border-radius: 30px 30px 30px 30px;
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+#Text-Or{
+    margin-top: 50px; 
+    font-size: 15px;
+}
+
+#logo-adjust{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+}
+
+#Logos{
+    border-radius: 30px 30px 30px 30px;
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#FacebookLogo{
+    width: 15px;
+}
+
+#TwitterLogo{
+    width: 30px;
+}
+
+#GoogleLogo{
+    width: 25px;
+}
+
+#LinkedinLogo{
+    width: 20px;
+}
